@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Anie.css">
+    <title>Anie</title>
+</head>
+<body>
+    <script>
+       `use strict`;
+    function refreshTime() {
+    const timeDisplay = document.getElementById("time");
+    const dateString = new Date().toLocaleString();
+    const formattedString = dateString.replace(", ", " - ");
+    timeDisplay.textContent = formattedString;
+    }
+    setInterval(refreshTime, 1000);
+
+    </script>
+
+    <fieldset>
+    <div class="Top">
+        <legend><img src="./IMG_20220903_133707.jpg" height="200px" width="300px" alt="Anie"></legend>
+        <h2>Anie</h2>
+    </div>
+    <p>Current Date and Time is <span id='time'></span>.</p>
+    <p> My Track is  <b>FrontEnd</b></p>
+    <p><a href="https://github.com/ufanie"> Link to my Github Repository</p>
+    
+
+
+</fieldset>
+</body>
+</html>
