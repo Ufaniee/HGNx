@@ -7,17 +7,12 @@
     <title>Anie</title>
 </head>
 <body>
-    <script>
-    const d = new Date();
-    document.getElementById("demo").innerHTML = d.getMilliseconds();
-    </script>
-    
     <div class ="slackUserName">
         <h2>Anie</h2>
     </div>
 
     <div class = "slackDisplayImage">
-    <img src="./IMG_20220903_133707.jpg" height="200px" width="300px" alt="Anie">
+    <img src="./picture.jpg" height="200px" width="300px" alt="Anie">
     </div>
 
      <div class="currentDayOfTheWeek">
@@ -28,11 +23,17 @@
     <p> My Track is  <b>FrontEnd</b></p>
     </div>
 
-    <div class ="currentUTCTime">
-    <p id="demo"></p>
+    <div class="currentUTCTime">
+        The currentUTCTime is: <b id="demo"></b>
     </div>
+    
 
-    <div class ="“githubURL”>
+        <script>
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d.getMilliseconds();
+        </script>
+
+    <div class ="githubURL">
     <p><a href="https://github.com/Ufanie/HGNx/tree/main"> Link to my Github Repository</p>
     </div>
 </body>
