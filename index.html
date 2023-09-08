@@ -7,16 +7,12 @@
     <title>Anie</title>
 </head>
 <body>
-    <script>
-       `use strict`;
-    function refreshTime() {
-    const timeDisplay = document.getElementById("time");
-    const dateString = new Date().toLocaleString();
-    const formattedString = dateString.replace(", ", " - ");
-    timeDisplay.textContent = formattedString;
-    }
-    setInterval(refreshTime, 1000);
-
+    
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.getMilliseconds();
+document.getElementById("demo").innerHTML = d;
+</script>
     </script>
 
     <fieldset>
