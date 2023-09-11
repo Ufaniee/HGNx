@@ -7,33 +7,33 @@
     <title>Anie</title>
 </head>
 <body>
-    <div class ="slackUserName">
+    <div test-id ="slackUserName">
         <h2>Anie</h2>
     </div>
 
-    <div class = "slackDisplayImage">
+    <div test-id = "slackDisplayImage">
     <img src="./IMG_20220903_133707.jpg" height="200px" width="300px" alt="Anie">
     </div>
 
-     <div class="currentDayOfTheWeek">
+     <div test-id="currentDayOfTheWeek">
     <p>Today is <b>Friday</b></p>
     </div>
 
-    <div class ="myTrack">
+    <div test-id ="myTrack">
     <p> My Track is  <b>FrontEnd</b></p>
     </div>
 
-    <div class="currentUTCTime">
+    <div test-id="currentUTCTime">
         The currentUTCTime is: <b id="demo"></b>
     </div>
     
 
         <script>
         const d = new Date();
-        document.getElementById("demo").innerHTML = d.getMilliseconds();
+        document.getElementById("demo").innerHTML = d;
         </script>
 
-    <div class ="githubURL">
+    <div test-id ="githubURL">
     <p><a href="https://github.com/Ufanie/HGNx/tree/main"> Link to my Github Repository</p>
     </div>
 </body>
